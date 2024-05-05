@@ -1,0 +1,95 @@
+::selection {
+    background-color:#006A4E; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+body {
+    background-image: url('../image/li-hao-b25tsR8dBh0-unsplash\ \(1\).jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; /* Removes default padding */
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    position: relative; /* Ensure the body is relative for positioning the pseudo-element */
+  }
+  
+  /* Create a pseudo-element to overlay black color */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire body */
+    height: 110%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value to control the opacity */
+    z-index: -1; /* Ensure the overlay stays behind other elements */
+  }
+h1 {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 5px;
+   
+}/* Custom CSS for active tab color */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff; /* Text color of the active tab */
+    background-color: #006A4E !important; /* Background color of the active tab */
+    border-color: #006A4E !important; /* Border color of the active tab */
+}
+/* Custom CSS to change color of Credit Card, Paypal, and Net Banking tabs */
+.nav-pills .nav-link {
+    color: black; /* Change the color of the text and icons to blue */
+}
+
+/* Custom CSS */
+.form-group button {
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #00503F;
+}
+.log button {
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: #00503F;
+}
+.card button {
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #00503F;
+}
+/* Define the colors for the icons */
+.input-group-append .input-group-text.text-muted .fab.fa-cc-visa {
+    color: darkblue; /* Change to your preferred dark blue color */
+}
+
+.input-group-append .input-group-text.text-muted .fab.fa-cc-mastercard {
+    color: red; /* Change to your preferred red color */
+}
+
+.input-group-append .input-group-text.text-muted .fab.fa-cc-amex {
+    color: yellow; /* Change to your preferred yellow color */
+}
+

@@ -1,0 +1,131 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 6.5vw;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+
+/* Move the feedback form section to the left */
+#feedbackForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #006A4E;
+    margin-left: 15%; /* Adjust the left margin as needed */
+    margin-right: 10%; 
+}
+
+#feedbackForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#feedbackForm input[type="text"],
+#feedbackForm input[type="tel"],
+#feedbackForm textarea,
+#feedbackForm input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#feedbackForm textarea {
+    resize: vertical;
+}
+
+#feedbackForm button {
+    background-color: #006A4E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#feedbackForm button:hover {
+    background-color: #005139;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+
+.rating i {
+    font-size: 24px;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.rating i:hover,
+.rating i:hover ~ i {
+    color: #FFD700;
+}
+
+.rating i.checked {
+    color: #FFD700;
+}
+.your-image-class {
+    float: right;
+    margin-right: 80px;
+    width: 36%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's treated as a block element */
+    margin-top: 5px; /* Adjust margin as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    /* Add more styles as needed */
+}
+#reviews {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#reviews h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.review strong {
+    color: #006A4E;
+}
+
+.review p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}

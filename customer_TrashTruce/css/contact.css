@@ -1,0 +1,147 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+.custom-background-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon i {
+    font-size: 20px;
+    color: #006A4E;
+}
+
+.icon h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.icon p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #00503F;
+}
+
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-info {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .icon {
+        width: auto;
+    }
+
+    .contact-form {
+        width: 50%;
+    }
+}

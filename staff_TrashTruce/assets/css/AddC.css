@@ -1,0 +1,86 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
+  }
+  
+  .AddCategory {
+    border: 1px solid rgb(194, 188, 188);
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Adjusted width for smaller screens */
+    max-width: 500px; /* Added max-width to prevent overflowing on smaller screens */
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #94c8e6;
+    color: rgb(3, 3, 3);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: leftt;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+
+  .AddCategory form input,select,textarea{
+    width: 100%;
+  }
+  
+  .AddCategory h1 {
+    text-align: center;
+    color: #006A4E;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 3px 3px 5px #afb4b4;
+    font-size: 3em;
+  }
+
+  form input[type="text"],
+form textarea,
+form select,
+form input[type="file"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+  
+  button {
+    background-color: #006A4E;
+    border: none;
+    color: rgb(245, 241, 241);
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 10px auto; /* Center the button horizontally */
+    cursor: pointer;
+    border-radius: 10px;
+    /* Removed unnecessary properties */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #009970;
+    color: black;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .AddCategory {
+        width: 70%; /* Adjusted width for smaller screens */
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+  
+    button {
+        margin-top: 20px; /* Increased margin for better spacing */
+    }
+  }
+  

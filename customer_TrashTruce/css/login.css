@@ -1,0 +1,83 @@
+::selection {
+  background-color:#006A4E ; /* Green color for selected text */
+  color: #ffffff; /* White text color for better visibility */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../image/11814.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  font-family: Arial, sans-serif; /* Example font stack */
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}/* Style for the Register container */
+.Register {
+  width: 80%; /* Adjust width to be relative */
+  max-width: 400px; /* Limit maximum width */
+  margin: 10% auto; /* Center the container vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white; /* Add this line to set the background color to white */
+}
+
+/* Style for the h2 heading */
+.Register h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for inputs */
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: #006A4E;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover {
+  background-color: darkgreen;
+}
+
+/* Style for the link */
+.Register p {
+  text-align: center;
+}
+
+.Register p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Register p a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .Register {
+    width: 90%; /* Adjust width to be relative */
+    margin: 20% auto; /* Center the container vertically and horizontally */
+  }
+}

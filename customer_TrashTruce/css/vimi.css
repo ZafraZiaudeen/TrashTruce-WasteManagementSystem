@@ -1,0 +1,97 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px ;
+    padding: 0;
+}
+
+/* CSS for the layout */
+#visionmision {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* CSS for the image */
+.imagei {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.imagei img {
+    max-width: 85%; /* Adjust this value to your desired size */
+    height: auto;
+    border-radius: 20px;
+    animation: zoomIn 1s ease-in-out;
+}
+
+/* CSS for the content */
+.vimi {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: justify;
+}
+
+#visionmision h1 {
+    font-size: 40px;
+    color: #006A4E;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    text-align: center;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+#visionmision h2 {
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+/* CSS for the paragraphs */
+#visionmision .vimi p {
+    font-weight: 100;
+    text-align: justify;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+    #visionmision {
+        flex-direction: column;
+    }
+
+    .imagei,
+    .vimi {
+        margin: 10px;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,149 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 65px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+   
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Table */
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure equal width for all cells */
+  
+}
+
+td {
+    padding: 10px;
+    height: 400px; /* Adjust the height as needed */
+    vertical-align: top; /* Align content to the top of the cell */
+}
+
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Reduce padding for main content on smaller screens */
+    main {
+        padding: 10px;
+    }
+
+    /* Make table cells display as block on smaller screens */
+    td {
+        display: block;
+        padding: 0;
+    }
+
+    /* Adjust image width for smaller screens */
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container h3 {
+    margin-bottom: 10px;
+}
+
+.button-container button {
+    background-color: #006A4E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color:green;
+}
+.bin-accepted,
+.bin-not-accepted,
+.other-materials {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bin-accepted h2,
+.bin-not-accepted h2,
+.other-materials h2 {
+    margin-top: 0;
+}
+/* Header */
+h2 {
+    color: #006A4E; /* Set the color of the header */
+    text-align: center; /* Center align the header */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+/* Video Container */
+.video-container {
+    max-width: 600px; /* Set maximum width for the video container */
+    margin: 0 auto; /* Center the video container horizontally */
+    text-align: center; /* Center align content inside the video container */
+}
+
+.video-container iframe {
+    width: 100%; /* Ensure the iframe fills the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Description */
+.video-container p {
+    color: #333; /* Set the color of the description text */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space above the description */
+}

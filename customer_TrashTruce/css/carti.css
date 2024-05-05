@@ -1,0 +1,154 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style header */
+  ::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 65px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }   
+   table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .remove-btn {
+        cursor: pointer;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 600px) {
+        img {
+            max-width: 80px;
+            max-height: 80px;
+        }
+        th, td {
+            padding: 6px;
+            font-size: 12px;
+        }
+    }
+
+/* CSS for Shopping Cart Table */
+#cart {
+    width: 70%; /* Adjust as needed */
+    margin: 0 auto; /* Centers the table */
+    border-collapse: collapse;
+}
+
+#cart th, #cart td {
+    border-bottom: 1px solid #dddddd; /* Adding border to cells */
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+/* CSS for Remove Button */
+.remove-btn {
+    background-color: #006A4E; /* Green background */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Adjustments to the input field for quantity */
+#cart input[type="number"] {
+    width: 40px;
+}
+
+/* CSS for the table header */
+#cart th {
+    font-weight: bold;
+}
+#cart-summary {
+    width: 78%;
+    border-collapse: collapse;
+}
+
+#cart-summary td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart-summary td:first-child { 
+        padding-top: 10px;
+        padding-left:78%;  
+}
+
+#cart-summary td:last-child {
+    text-align: right;
+}
+
+#cart-summary button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cart-summary button i {
+    margin-right: 5px;
+}
+.btn.btn-success {
+    background-color: #006A4E; /* Your desired color */
+    color: #fff; /* Text color */
+    /* Add any additional styles as needed */
+}
+#cart-summary tr:last-child td:first-child {
+    padding-bottom: 5px; /* Adjust this value as needed */
+}
+/* CSS code for styling the Update button */
+.update-btn {
+    background-color: #006A4E; /* Green background */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.update-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

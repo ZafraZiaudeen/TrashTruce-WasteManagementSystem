@@ -1,0 +1,266 @@
+
+body{
+  font-family: "Open Sans", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
+}
+.nav
+{
+    margin: 0%;
+}
+.main
+{
+  padding: 0;
+}
+
+ 
+  .colorbar h1{
+    color: #006A4E;
+    font-family: "Nunito", sans-serif;
+    padding: 20px;
+    text-shadow: 3px 3px 5px rgb(204, 188, 188);
+    margin-left: 50px;
+    font-size: 4em;
+    margin-left: 28%;
+    margin-top: 3%;
+  }
+
+  /*      Table start      */
+
+  .intro {
+    margin-top: 0px;
+    margin-left: 23%;
+    margin-right: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(5, 5, 5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #006A4E;
+    border-radius: 10px;
+   
+  }
+  
+  table th {
+    border: 1px solid #c2bcbcdd;
+    border-radius: 2px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.2em;}
+    
+  
+
+  table td {
+    border: 1px solid #c2bcbcdd;
+    border-radius: 2px;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  table th {
+    background-color:white
+  }
+  
+ 
+  
+  table tr:hover {
+    background-color: white;
+  }
+
+
+
+/* delete button  */
+
+.btn10
+{
+  border: none;
+  padding: 0;
+}
+button.btnevent
+{
+  border: none;
+  padding: 0;
+  margin-left: -225px;
+}
+.btnDlt {
+  background-color: #006A4E; 
+  border: 1px solid rgb(107, 102, 102);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin: 1.5px 0.8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/*Hover effect */
+.btnDlt:hover {
+   background-color: #009970;
+  color: black;
+}
+  /*     button All Delete  */
+
+  .btnAllDlt
+  {
+    margin-left: 85%;
+    margin-top: 10px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    border: none;
+  }
+ 
+.btnAllDlt a {
+    background: #006A4E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Hover effect */
+  .btnAllDlt a:hover {
+    background: #009970;
+    color: black; 
+  }
+.btnAllDlt01
+{
+  margin-left: 85%;
+  margin-top: -38px;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  border: none;
+}
+.btnAllDlt01 a {
+  background: #006A4E;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+.btnAllDlt01 a:hover {
+  background: #009970;
+  color: black; 
+}
+
+  
+/*     button Add  */
+#eventbtn
+{
+  margin-left: 5%;
+}
+  
+  .btnAdd
+  {
+    margin-left: 25%;
+    margin-top: -85px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+
+  .btnAdd a {
+    background: #006A4E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Hover effect */
+  .btnAdd a:hover {
+      background: #009970;
+    color: black;
+  }
+ 
+ 
+@media (max-width: 767px) {
+    /* Adjustments for smaller screens */
+  
+    .main {
+      margin: 0%;
+    }
+  
+    
+  
+    .colorbar h1 {
+      margin-left: 10px;
+      font-size: 3em;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10%;
+    }
+  
+    .intro {
+      margin-left: 5%;
+      margin-right: 5%;
+      overflow-x: auto;
+    }
+  
+    table th,
+    table td {
+      font-size: 0.9em;
+      padding: 0;
+    }
+  
+    .btnAllDlt {
+      margin-left: 5%;
+      margin-top: 10px;
+      font-size: 1em;
+    } 
+    .btnAllDlt01 {
+      margin-left: 5%;
+      margin-top: 10px;
+      font-size: 1em;
+    }
+  
+    
+    .btnAdd {
+      margin-left: 5%;
+      margin-top: 10px;
+      font-size: 1em;
+    }
+
+    button.btnevent
+{
+   margin-left: 5%;
+      margin-top: 10px;
+      font-size: 1em;
+}
+   
+  }
+  

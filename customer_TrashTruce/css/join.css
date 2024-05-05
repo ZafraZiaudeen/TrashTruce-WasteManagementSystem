@@ -1,0 +1,96 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style for the header */
+header {
+    color: #006A4E;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 36px; /* Adjusted font size */
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Style for the main heading */
+header h1 {
+    font-size: 36px;
+}
+
+/* Style for the container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Style for the form */
+#join-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #006A4E;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #005240;
+}
+
+/* Style for thank you message */
+.thank-you-message {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for thank you message heading */
+.thank-you-message h2 {
+    color: #006A4E;
+}
+
+/* Style for thank you message description */
+.thank-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #333;
+}

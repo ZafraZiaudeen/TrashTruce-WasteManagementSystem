@@ -1,0 +1,97 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px ;
+    padding: 0;
+}
+
+/* CSS for the layout */
+#about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* CSS for the image */
+.image {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 85%; /* Adjust this value to your desired size */
+    height: auto;
+    border-radius: 20px;
+    animation: zoomIn 1s ease-in-out;
+}
+
+/* CSS for the content */
+.content {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: justify;
+}
+
+#about-us h2 {
+    font-size: 50px;
+    color: #006A4E;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    text-align: center;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+#about-us h1 {
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+/* CSS for the paragraphs */
+#about-us .content p {
+    font-weight: 100;
+    text-align: justify;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+    #about-us {
+        flex-direction: column;
+    }
+
+    .image,
+    .content {
+        margin: 10px;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,185 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+.background-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 5vw; /* Responsive font size */
+    font-family: Arial, sans-serif; 
+}
+
+p {
+    font-size: 1em; /* Responsive font size */
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.search-container input[type="text"] {
+    padding: 1em; /* Responsive padding */
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.search-container button {
+    padding: 0.8em 1.6em; /* Responsive padding */
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #004F39; /* Darker color on hover */
+}
+
+.vertical-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures equal spacing between schedule containers */
+}
+
+.schedule-container {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-container p {
+    margin: 0;
+}
+
+.schedule-container button {
+    padding: 0.8em 1.6em; /* Responsive padding */
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em; /* Responsive font size */
+    margin-top: 10px;
+}
+
+.schedule-container button:hover {
+    background-color: black;
+}
+
+#clearInput {
+    display: none;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .background-container {
+        width: 90%;
+    }
+
+    .search-container {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .search-container input[type="text"] {
+        width: 70%;
+    }
+
+    .schedule-container {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .search-container input[type="text"] {
+        width: 80%;
+    }
+
+    .schedule-container {
+        width: calc(100% - 20px);
+    }
+}
+.search-container {
+    margin-bottom: 20px;
+    text-align: center; /* Center align for responsiveness */
+}
+
+.search-container input[type="text"] {
+    padding: 1em;
+    width: 70%; /* Adjusted width for responsiveness */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.search-container button {
+    padding: 0.8em 1.6em;
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #004F39;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .search-container input[type="text"] {
+        width: 80%; /* Adjusted width for smaller screens */
+    }
+
+    .search-container button {
+        margin-left: 0; /* Remove left margin for smaller screens */
+        margin-top: 10px; /* Add top margin for spacing */
+    }
+}
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 576px) {
+    .search-container input[type="text"] {
+        width: 90%; /* Adjusted width for even smaller screens */
+    }
+
+    .search-container button {
+        padding: 0.6em 1.2em; /* Adjusted padding for even smaller screens */
+        font-size: 0.9em; /* Adjusted font size for even smaller screens */
+    }
+}

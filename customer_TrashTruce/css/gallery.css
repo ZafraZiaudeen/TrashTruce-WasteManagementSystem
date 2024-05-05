@@ -1,0 +1,28 @@
+::selection {
+    background-color:#006A4E ; 
+    color: #ffffff; 
+}
+header {
+    color:  #006A4E;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; 
+  }
+  .container {
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+.gallery-img {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width of the images */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    transition: transform 0.3s; /* Add transition for smooth effect */
+}
+.gallery-img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}

@@ -1,0 +1,54 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 65px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+/* CSS for table with id "orders" */
+#orders {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #orders th, #orders td {
+    border-bottom: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #orders th {
+    background-color: white;
+  }
+  
+  /* CSS for cancel button */
+  .cancel-btn {
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cancel-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Hide horizontal scrollbar */
+  body {
+    overflow-x: hidden;
+  }
+  

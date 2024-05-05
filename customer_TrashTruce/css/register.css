@@ -1,0 +1,99 @@
+::selection {
+  background-color:#006A4E ; /* Green color for selected text */
+  color: #ffffff; /* White text color for better visibility */
+}/* Style for the Register container */
+/* Body style with background image */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../image/11814.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* Style for the Register container */
+.login {
+  width: 80%; /* Adjust width as needed */
+  max-width: 400px; /* Maximum width */
+  margin: 10% auto; /* Center the form horizontally and add margin from top and bottom */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Style for the h2 heading */
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the detail container */
+.detail {
+  margin-bottom: 20px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: #006A4E;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover {
+  background-color: darkgreen;
+}
+
+/* Style for the link */
+.Register p {
+  text-align: center;
+}
+
+.Register p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Register p a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .login {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove maximum width */
+  }
+}

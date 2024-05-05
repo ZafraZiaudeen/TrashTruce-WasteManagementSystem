@@ -1,0 +1,130 @@
+::selection {
+    background-color:#006A4E ; 
+    color: #ffffff; 
+}
+header {
+    color:  #006A4E;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; 
+  }
+
+.category-filter {
+    text-align: center; /* Align buttons to the right */
+    margin-top: 10px; /* Adjust top margin for spacing */
+}
+
+.category-filter button {
+    background-color: #006A4E; 
+    color: white;
+    border-radius: 5px; /* Set button text color to white */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-left: 10px;
+    width: 150px; /* Add left margin for spacing between buttons */
+}
+
+.category-filter button:hover {
+    background-color: #00503f; /* Darken the background color on hover */
+}
+
+.searchs {
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+.searchs input[type="text"] {
+    padding: 10px; /* Increase padding for the input field */
+    width: 300px; /* Set a specific width for the input field */
+    font-size: 16px; /* Increase font size for better visibility */
+}
+.searchs button {
+    background-color: #006A4E; /* Set button background color to green */
+    color: white; /* Set button text color to white */
+    border: black; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.data {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.data1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.3s; /* Added transition for box-shadow and transform */
+    box-shadow: 10px 4px 6px rgba(0, 14, 0, 0.5); /* Green box shadow */
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s ease forwards; /* Apply the animation */
+}
+
+.data1:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift up a bit on hover */
+}
+
+.data1 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.data1 div {
+    padding: 10px;
+}
+
+.data1 h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #006A4E;
+}
+
+.data1 p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: black;
+}
+
+
+.data1i {
+    font-size: 20px;
+    color: #006A
+}
+.data1 .quantity-input {
+    border: 2px solid black; /* Green border */
+    padding: 5px; /* Adjust padding as needed */
+    width: 80px; /* Adjust width as needed */
+}
+
+.data1 button {
+    border: 2px solid #006A4E; /* Set border color to green */
+    background-color: #006A4E; /* Set background color to green */
+    color: white; /* Set text color to white */
+    height: 30px; /* Set height of the button */
+}
+
+.data1 button:hover {
+    background-color: #00503f; /* Darken the background color on hover */
+    border-color: #00503f; /* Darken the border color on hover */
+}
+
+
+.data1 button .cart-icon {
+    color: white; /* Black color for the cart icon */
+}
+.image-container {
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure image does not overflow */
+}

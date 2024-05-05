@@ -1,0 +1,81 @@
+/* Select the 'selection' style */
+::selection {
+    background-color:#006A4E;
+    color: #ffffff;
+}
+
+/* Style for the header */
+header {
+    color: #006A4E;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the main heading */
+header h1 {
+    text-shadow: 2px 2px 4px rgb(1, 13, 2);
+    font-size: 36px; /* Adjusted font size */
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for individual events */
+.event {
+    display: inline-block;
+    width: 300px;
+    height: 780px; /* Set a fixed height */
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Hide overflow content */
+    box-sizing: border-box; /* Include padding in width and height */
+}
+/* Hover effect for events */
+.event:hover {
+    transform: scale(1.05);
+}
+
+/* Style for event images */
+.event img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: 200px; /* Maintain aspect ratio */
+    width: 100%; /* Set width to 100% to fill the container */
+    max-height: 200px; /* Set maximum height for the images */
+}
+/* Style for event titles */
+.event h2 {
+    margin-top: 0;
+    color: black;
+}
+
+/* Style for event details */
+.event-details {
+    margin-bottom: 10px;
+}
+
+/* Style for event descriptions */
+.event-description {
+    font-style: italic;
+}
+
+/* Style for the join button */
+.join-button button {
+    background-color: #006A4E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the join button */
+.join-button button:hover {
+    background-color: green;
+}
+.event-title{
+    font-size: 20px;
+    color: #006A4E;
+    text-decoration: none;
+}

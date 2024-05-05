@@ -1,0 +1,96 @@
+::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style header */
+  ::selection {
+    background-color:#006A4E ; /* Green color for selected text */
+    color: #ffffff; /* White text color for better visibility */
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #006A4E;
+    text-shadow: 3px 3px 5px rgb(1, 13, 2);
+    font-size: 65px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style search input */
+  #searchInput {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  /* Style main content */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style individual location */
+  .location {
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .location img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .location h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .location p {
+    margin-bottom: 5px;
+  }
+  
+  .location a {
+    color: #006A4E ;
+    text-decoration: none;
+  }
+  
+  .location a:hover {
+    text-decoration: underline;
+  }
+  /* CSS for the clear button */
+  button {
+    padding: 10px 15px;
+    background-color: #006A4E ; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color:black ; /* Darker blue color on hover */
+  }
